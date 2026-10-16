@@ -5,7 +5,6 @@ class Xcflow < Formula
   sha256 "9187763b0783b38ea1496d1c0065ceb3c8a2fcc0a244a497f721dede68e8c15d"
   license "MIT"
 
-  depends_on :macos
   depends_on macos: :sonoma
 
   def install
