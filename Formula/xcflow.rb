@@ -1,0 +1,18 @@
+class Xcflow < Formula
+  desc "Xcode Cloud workflows as JSON files in your repo"
+  homepage "https://github.com/OlafAndreas/xcflow"
+  url "https://github.com/OlafAndreas/xcflow/releases/download/v0.1.0/xcflow-0.1.0.tar.gz"
+  sha256 "9187763b0783b38ea1496d1c0065ceb3c8a2fcc0a244a497f721dede68e8c15d"
+  license "MIT"
+
+  depends_on :macos
+  depends_on macos: :sonoma
+
+  def install
+    bin.install "xcflow"
+  end
+
+  test do
+    assert_equal version.to_s, shell_output("#{bin}/xcflow --version").strip
+  end
+end
