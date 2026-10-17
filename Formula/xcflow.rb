@@ -1,8 +1,8 @@
 class Xcflow < Formula
   desc "Xcode Cloud workflows as JSON files in your repo"
   homepage "https://github.com/OlafAndreas/xcflow"
-  url "https://github.com/OlafAndreas/xcflow/releases/download/v0.2.2/xcflow-0.2.2.tar.gz"
-  sha256 "67324c5cfa9216e987c490438b77f0eba6d0eb0e58ff9dbb85c2e85a890e1f5e"
+  url "https://github.com/OlafAndreas/xcflow/releases/download/v0.2.3/xcflow-0.2.3.tar.gz"
+  sha256 "d6b779060950c30a4013103fa9f761c9840d53bd3c3dfc3a34fe38ca8797a0ff"
   license "MIT"
 
   depends_on macos: :sonoma
